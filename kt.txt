@@ -1,0 +1,44 @@
+PURX Angular Project Modification 
+================================
+Details :- 
+
+
+Client - Devin
+
+FTP :- purrxhealth.com	64.227.110.142	purrxhealth	6PBJLdS*Te?w
+
+----- Campaigns that are needed to modify ------
+57 FastFlex ONE -- Testing 
+59 Extra Strength Pain Rub -- 1000MG == Not Started Yet
+62 MindEase -- Already done
+58 VitaFuse -- DONE
+56 CB Doze --- DONE
+
+-----------------------------------------------------------------------
+
+KT :- 
+
+1) http://localhost:4200/#/products1/56 ---> products1 is the beta link , where you are supposed to work. Do not work in 
+products/. products is live .
+2) Images are changed , check once if images are changing on each products or not
+3) At this moment , you have to change the text , for each product
+4) Follow the Product name , and find the corresponding it from the above . For eg :- CB Doze = 56
+5) On the right hand side , From the title of the product till the button Add To bag, is coming from Admin
+6) From left side images , and excluding the 5th point above , and from the Benefits , it is showing 
+from page. That is , it  is dynamic from the page.
+7) The file on which you will be working , is src >> app >> product-details1 >> product-details1.component.html
+Note :- Do not work on product-details directory
+8) Donot work on images, images are all done. Only work on text
+9) 62 MindEase is already done. The text which is already there , it will be for 62 product. 62 is already done.
+So , just add condition for the 62 
+10) Send the update as, except  .. , .. we have the above task for the other products
+11) When finally done with the changes, Run the below command , to create the production file :- 
+ng build --prod --base-href
+    => It will create recompile and rebuild the dist folder.
+12) The uploading location is inside the public_html. Also , note except the assets folder, you 
+will need to upload all the other files. Total 13 files will be there.
+Before uploading, download all the 13 files , in your local , then delete , then finally upload your 13 files
+
+
+
+==> Currently Working on 57.

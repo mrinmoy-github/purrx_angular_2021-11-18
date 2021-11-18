@@ -1,0 +1,29 @@
+=> Installation and creating project :- First of all , download and install the node js.
+Once installed, then you will need to install the angular cli , to work with your project or 
+create project using cli.. To intall :- 
+    npm install -g @angular/cli
+
+
+=> To create new project :- 
+ng new project-name
+
+=> Note :- You should create the angular app outside of the laravel , to seperate frontend and backend.
+
+
+=> Setup existing project :- if you already have the existing project , then you will need to first 
+run npm install , to install all the dependency . Then run your app .
+
+
+=> Running angular app  :- 
+ng serve --open
+
+    => The project will run on localhost:4200
+
+
+=> Creating Components :-
+ng g c components/employees
+
+* c --> flag for creating component
+* components --> The folder in which the your component will be created. This folder will be created under 
+src >> app >> 
+* employees --> The actual component , 
